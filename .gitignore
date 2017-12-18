@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+public/bower_components
+node_modules
+
+dist
+.publish
+
+*.*~
+
+.idea
