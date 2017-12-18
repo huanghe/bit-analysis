@@ -1,4 +1,32 @@
 {
+  "name": "bit-analysis",
+  "version": "2.0.0",
+  "description": "加密货币开发语言统计分析, Statistical Analysis of Cryptocurrency Development Languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:huanghe/bit-analysis.giti"
+  },
+  "keywords": [
+    "Cryptocurrency",
+    "bitcoin",
+    "d3js",
+    "nodejs"
+  ],
+  "author": "hahaxixi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hahaxixi/bit-analysis/issues"
+  },
+  "homepage": "https://github.com/hahaxixi/bit-analysis#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "github": "^0.2.4"
+  },
   "devDependencies": {
     "del": "^3.0.0",
     "event-stream": "^3.3.4",

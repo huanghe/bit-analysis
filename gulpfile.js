@@ -131,9 +131,5 @@ gulp.task('default', ['watch', 'js', 'css', 'images', 'fonts', 'html']);
 //Deploy
 gulp.task('deploy', ['default'], function() {
     return gulp.src('./dist/**/*')
-        .pipe(deploy({
-              branch: 'master',
-              cacheDir: '.deploy'
-            })
-        )
+        .pipe(ghPages());
 });
